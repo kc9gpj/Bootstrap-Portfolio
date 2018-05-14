@@ -127,7 +127,7 @@ input[type=submit]:hover {
 /* form style */
 #form {
     border-radius: 5px;
-    background-color: lightgray;
+    background-color: gray;
     padding: 20px;
 }
 
@@ -145,9 +145,6 @@ p {
         background: #2d73b6;
         position: absolute;
         top: 55px;
-         
-      
-        
 
     }
 }
