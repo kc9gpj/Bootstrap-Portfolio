@@ -1,18 +1,147 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Student Bio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="http://static1.squarespace.com/static/56664f8dd82d5ed3d73ce796/t/56763f81d8af102d24d87f30/1522333761828/">
+
+
+    <title>David Hoffmann</title>
+  </head>
+  <body>
+        <!-- top nav bar -->
+        <nav class="nav justify-content-end navbar-expand-lg navbar-light bg-light">
+        <ul class="nav">
+                <li class="nav-item">
+                    <a id="title">David Hoffmann</a>
+                </li>
+                <li class="nav-item">
+                  <button class="navbar"  onclick="firstFunction()">About</button>
+                </li>
+                <li class="nav-item">
+                  <button class="navbar" onclick="secondFunction()">Portfolio</button>
+                </li>
+                <li class="nav-item">
+                  <button class="navbar"  onclick="thirdFunction()">Contact</button>
+                </li>
+              </ul>
+              </nav>
+              <br>
+              <br>
+              <!-- About me page -->
+        <div class="jumbotron-fluid" id="aboutme">
+                   
+                    <div class="container" id="jumbotron">
+                            <h1 id="subtitle">About Me</h1>
+                            <hr>
+                        <div class="row">
+                    <div class="col-sm-4">
+                         <img id="profile_img" src="https://media.licdn.com/dms/image/C5603AQGIZt_45AZYkw/profile-displayphoto-shrink_200_200/0?e=1530748800&v=beta&t=4hHiQ_SOwjrNVppLv29_yveke0Eyu9_uT403uaG9yX4">
+                    </div>
+                    <div class="col-sm-4">
+                     <p> A lifelong experimenter and tinkerer. Since I was young I have enjoyed building computers, designing radio antennas, and experimenting with technology. I also enjoy camping, traveling and hunting.</p>
+                     </div>
+                     <div class="col-sm-4">
+
+                    <p>I grew up in the great state of Wisconsin, and I currently live near Kansas City. I graduated from a Olivet Nazarene University in Illinois in 2012 with a B.S. in Criminal Justice. After that I spent 4 years in the Army as a Logistics Officer. The majority of my service was at Fort Riley, KS and southern Afghanistan. After leaving the army I was a distribution center manager, but I decided to pursue my lifelong dream of working with tech and computers!</p>
+                    </div>
+                    </div>
+                    </div>
+        </div>
+            <!-- portfolio page -->
+        <div class="jumbotron-fluid" id="portfolio" style="display:none">
+
+                <div class="container" id="jumbotron">
+                    <h1 id="subtitle">Portfolio</h1>
+                    <hr>
+                    <ol class="row" >
+                        <li class="col-sm-4">
+                        <a href="http://mafia6.com/" target="_blank"><img id="resize" src="https://i.imgur.com/jcrdMQQ.jpg"></a>
+
+                        </li>
+                        
+                        <li class="col-sm-4">
+                        <img id="resize" src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX8112626.jpg">
+
+                        </li>
+
+                         <li class="col-sm-4">
+                        <img id="resize" src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX8112626.jpg">
+
+                         </li>
+                        <br>
+                     <li class="row">
+
+                         <li class="col-sm-4">
+                                <img id="resize" src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX8112626.jpg">
+            
+                         </li>
+                        
+                        <li class="col-sm-4">
+                                <img id="resize" src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX8112626.jpg">
+                    
+                        </li>
+
+                        <li class="col-sm-4">
+                                <img id="resize" src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX8112626.jpg">
+                
+                        </li>
+
+                            </ol>
+                    </div>
+                    </div>
+                     </div>
+                        <!-- contact page -->
+            <div class="jumbotron-fluid" id="contact" style="display:none">
+
+                    <div class="container" id="jumbotron">
+                    <h1 id="subtitle">Contact</h1>
+                            <hr>
+                            
+                            <div id="form">
+                              <form action="/action_page.php">
+                                <!-- Name box -->
+                                <label for="Name">Name</label>
+                                <input type="text" id="Name" name="Name" placeholder="John Smith">
+                                <!-- email box -->
+                                <label for="Email">Email</label>
+                                <input type="text" id="Email" name="Email" placeholder="Example@gmail.com">
+                                <!-- text box -->
+                                <label for="subject">Subject</label>
+                                <textarea id="subject" name="subject" 
+                                style="height:200px"></textarea>
+                                <!-- submit button -->
+                                <input type="submit" value="Submit">
+                              </form>  
+                     </div>         
+                     </div>
+                     </div>    
+                     <br>
+                     <br>
+                     <br>
+                     <!-- bottom nav bar -->
+                     <div class="navbarbottom">
+                            <br>
+                               <center><div class=bottomtext>Copyright 2018</div></center>
+                                </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <script>
             // menu function for about me
          function firstFunction() {
             document.getElementById("aboutme").style.display = "block";
             document.getElementById("portfolio").style.display = "none";
-            document.getElementById("Contact").style.display = "none";
+            document.getElementById("contact").style.display = "none";
 
 
             }
@@ -20,7 +149,7 @@
         function secondFunction() {
             document.getElementById("aboutme").style.display = "none";
             document.getElementById("portfolio").style.display = "block";
-            document.getElementById("Contact").style.display = "none";
+            document.getElementById("contact").style.display = "none";
 
 
             }
@@ -28,86 +157,10 @@
         function thirdFunction() {
             document.getElementById("aboutme").style.display = "none";
             document.getElementById("portfolio").style.display = "none";
-            document.getElementById("Contact").style.display = "block";
+            document.getElementById("contact").style.display = "block";
 
 
             }
     </script>
-
-    <!-- top menu -->
-    <center><div id="Topnav">
-        <h1 id="title">David Hoffmann</h1>
-        <button class="nav" onclick="firstFunction()">About</button>
-        <button class="nav" onclick="secondFunction()">Portfolio</button>
-        <button class="nav" onclick="thirdFunction()">Contact</button>
-
-    </div></center>
-    <br>
-    <br>
-    <br>
-</head>
-<body>
-<!-- about me page -->
-<center><div id="aboutme">
-<div id="subtitle">About Me</div>
-
-<hr>
-<!-- about me profile img -->
-<img id="profile_img" src="https://media.licdn.com/dms/image/C5603AQGIZt_45AZYkw/profile-displayphoto-shrink_200_200/0?e=1530748800&v=beta&t=4hHiQ_SOwjrNVppLv29_yveke0Eyu9_uT403uaG9yX4">
-    <br>
-    <p>A lifelong experimenter and tinkerer. Since I was young I have enjoyed building computers, designing radio antennas, and experimenting with technology. I also enjoy camping, traveling and hunting.</p>
-    <br>
-    <p>I grew up in the great state of Wisconsin, and I currently live near Kansas City. I graduated from a Olivet Nazarene University in Illinois in 2012 with a B.S. in Criminal Justice. After that I spent 4 years in the Army as a Logistics Officer. The majority of my service was at Fort Riley, KS and southern Afghanistan. After leaving the army I was a distribution center manager, but I decided to pursue my lifelong dream of working with tech and computers!</p>
-
-</div></center>
-<!-- portfolio page-->
-<center><div id="portfolio" style="display:none">
-<div id="subtitle">Portfolio</div>
-<hr>
-<br>
-<!-- portfolio images -->
-<ol class="list">
-    <li><a href="http://mafia6.com/"><img class="resize" src="https://i.imgur.com/jcrdMQQ.jpg"></a></li>
-    <li><img class="resize" src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX8112626.jpg"></li>
-    <li><img class="resize" src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX8112626.jpg"></li>
-    <li><img class="resize" src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX8112626.jpg"></li>
-    <li><img class="resize" src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX8112626.jpg"></li>
-    <li><img class="resize" src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX8112626.jpg"></li>
-
-
-</ol>
-
-
-</div></center>
-<!-- contact page -->
-<center><div id="Contact" style="display:none">
-<div id="subtitle">Contact</div>
-<hr>
-<br>
-<div class="container">
-  <form action="/action_page.php">
-    <!-- Name box -->
-    <label for="Name">Name</label>
-    <input type="text" id="Name" name="Name" placeholder="John Smith">
-    <!-- email box -->
-    <label for="Email">Email</label>
-    <input type="text" id="Email" name="Email" placeholder="Example@gmail.com">
-    <!-- text box -->
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" 
-    style="height:200px"></textarea>
-    <!-- submit button -->
-    <input type="submit" value="Submit">
-  </form>
-</div>
-</div></center>
-<br>
-<br>
-<br>
-<div class="navbarbottom">
-    <br>
-       <center><div class=bottomtext>Copyright 2018</div></center>
-        </div>
-
 </body>
 </html>
