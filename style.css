@@ -10,15 +10,14 @@ body {
 #title {
     
     font-family: 'Georgia', Times, Times New Roman, serif;
-    position: absolute;
-    top: -5px;
-    left: 150px;
     padding: 5px 5px 5px 5px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 30px;
     color: white;
     background: #2d73b6;
     margin: 5px;
+   
+   
     
 }
 
@@ -134,17 +133,3 @@ input[type=submit]:hover {
 p {  
     text-indent: 2.0em;  
   }
-/* name for responsive screen */
-@media screen and (max-width: 768px){
-
-    #title {
-        border: none;
-        font-family: 'Georgia', Times, Times New Roman, serif;
-        font-size: 15px;
-        color: white;
-        background: #2d73b6;
-        position: absolute;
-        top: 55px;
-
-    }
-}
