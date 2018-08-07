@@ -29,24 +29,22 @@
   <body>
         <!-- top nav bar -->
     
-        <nav class="navbar-brand">
-                <div class="navbar-brand">
-                        <a id="title">David Hoffmann</a>
+    
+        <nav class="navbar-brand nav navbar-light">
+        <a id="title">David Hoffmann</a>
+        
+                <div class="nav-item dropdown">
+                <a class="navbar-toggler-icon" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" >
+                </a>
+                        <div class="dropdown-menu dropdown-menu-right"  aria-labelledby="navbarDropdown">
+                        <button class="dropdown-item" onclick="firstFunction()">About</button>
+                        <button class="dropdown-item" onclick="secondFunction()">Portfolio</button>
+                        <button class="dropdown-item" onclick="thirdFunction()">Contact</button>
+                        </div>
                 </div>
-        </nav>
-        <nav class="nav justify-content-end navbar-expand-lg navbar-light bg-light">
-        <ul class="nav">
-                <li class="nav-item">
-                  <button class="navbar"  onclick="firstFunction()">About</button>
-                </li>
-                <li class="nav-item">
-                  <button class="navbar" onclick="secondFunction()">Portfolio</button>
-                </li>
-                <li class="nav-item">
-                  <button class="navbar" onclick="thirdFunction()">Contact</button>
-                </li>
-              </ul>
-              </nav>
+                </nav>  
+              
+              <br>
               <br>
               <br>
               
@@ -61,6 +59,8 @@
                          <img id="profile_img" src="https://i.imgur.com/qoLJtSg.png">
                     </div>
                     <div class="col-sm-8">
+                            <br>
+                            <br>
                      <p> A lifelong experimenter, tinkerer, and world traveler. Since I was young I have enjoyed building computers, designing radio antennas, and experimenting with technology. I also enjoy camping, hunting, and a variety of nerd culture.</p>
                     
                     <br>
@@ -145,6 +145,7 @@
                                 <!-- submit button -->
                                 <input type="submit" value="Submit">
                               </form>  
+                              
                             
                      </div>         
                      </div>
