@@ -9,7 +9,7 @@ body {
 #title {
     
     font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 30px;
     color: white;
@@ -21,16 +21,13 @@ body {
     margin:0 auto;
     
 }
-.navbar-toggler-icon {
-    border-color: #fff;
-    border-style: solid;
-    border-top: none;
-    border-right: none;
-    border-left: none;
+/* menu button */
+#bars {
+    color:white;
+    font-size: 2em;
+    margin: 5px 0px 0px 15px;
   }
-  .dropdown-menu{
-    background-color: white;
-  }
+  
 /* menu navigation buttons */
 button {
     border: none;
