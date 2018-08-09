@@ -80,11 +80,13 @@ button {
     border-radius: 50%;
     
 }
-/* portfolio rezise of pictures */
-#resize {
-    width: 275px;
-    height: 175px;
-    margin: 0px 0px 50px 40px;
+#table {
+    margin-bottom: 15px;
+}
+#icons {
+    color: #2d73b6;
+    text-shadow: 1px 1px 1px gray;
+    font-size: 2em;
 }
 /* hover action */
 .resize:hover {
@@ -149,3 +151,4 @@ input[type=submit]:hover {
 p {  
     text-indent: 2.0em;  
   }
+
