@@ -89,9 +89,13 @@ button {
 #icons {
     color: #2d73b6;
     text-shadow: 1px 1px 1px gray;
-    font-size: 2em;
-
+    font-size: 1em;
+    display: inline-block;
+    padding-right: 15px;
+    
+   
 }
+
 /* hover action */
 .resize:hover {
     opacity: 0.3;
